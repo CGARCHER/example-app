@@ -8,3 +8,7 @@ Route::get('/', function () {
 });
 
 Route::resource('players', PlayerController::class);
+
+Route::get('/test', function () {
+    return 'Laravel funciona!';
+});
